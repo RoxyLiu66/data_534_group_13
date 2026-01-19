@@ -8,7 +8,5 @@ Develop an R package called EasyExchange designed to simplify the acquisition of
 
 Core Features:
 get_latest_rates ("USD"): Get the latest exchange rate for a specified currency relative to all other currencies.
-
 get_historical_rate("USD", "2023-01-01"): Get historical exchange rates for a specific date.
-
 convert_currency (from, to, amount): Directly convert the amount between the two currencies.
