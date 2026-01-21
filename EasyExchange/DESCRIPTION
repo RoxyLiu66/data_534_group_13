@@ -1,14 +1,14 @@
 Package: EasyExchange
-Title: What the Package Does (One Line, Title Case)
+Title: EasyExchange
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: This package provides a simple interface to the ExchangeRate-API. It allows users to fetch the latest exchange rates and returns them in a tidied tibble format for easy data analysis.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Imports: 
     dplyr,
-    httr2
+    httr2,
+    tibble
